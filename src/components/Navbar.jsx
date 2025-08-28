@@ -5,7 +5,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b">
       <nav className="w-full mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="text-xl font-semibold">
-          🍽 Recipe Finder
+          🍽 Recipe App
         </Link>
         <div className="flex items-center gap-4 text-sm">
           <Link
