@@ -164,7 +164,7 @@ export default function Home() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search recipes..."
-          className="border p-2 w-80 rounded-l-lg"
+          className="border p-2 w-80 rounded-l-lg  dark:bg-gray-800 dark:text-gray-200 dark:border-gray-600"
         />
         <button
           onClick={() => fetchMeals(search)}

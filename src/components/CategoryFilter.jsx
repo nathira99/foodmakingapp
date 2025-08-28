@@ -23,7 +23,7 @@ export default function CategoryFilter({ value = "", onChange }) {
     <select
       value={value}
       onChange={(e) => onChange?.(e.target.value)}
-      className="rounded-xl border px-3 py-2"
+      className="rounded-xl border px-3 py-2  dark:bg-gray-800 dark:text-gray-200 dark:border-gray-600"
     >
       <option value="">All Categories</option>
       {categories.map((cat) => (
