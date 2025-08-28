@@ -35,7 +35,7 @@ export default function Favorites() {
             {/* Remove Favorite */}
             <button
               onClick={() => removeFavorite(recipe.idMeal)}
-              className="absolute top-2 right-2 text-md"
+              className="absolute top-2 right-2 text-md  dark:bg-gray-800 dark:text-gray-200 dark:border-gray-600"
             >
               ✖
             </button>

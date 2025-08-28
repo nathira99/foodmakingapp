@@ -103,7 +103,7 @@ export default function Home() {
     }
 
     return (
-      <div className="flex justify-center items-center space-x-2 mt-6 flex-wrap">
+      <div className="flex justify-center items-center space-x-2 mt-6 flex-wrap text-md leading-8">
         <button
           disabled={currentPage === 1}
           onClick={() => onPageChange(1)}
@@ -164,7 +164,7 @@ export default function Home() {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
           placeholder="Search recipes..."
-          className="border p-2 w-80 rounded-l-lg  dark:bg-gray-800 dark:text-gray-200 dark:border-gray-600"
+          className="border p-2 w-80 rounded-lg  dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600"
         />
         <button
           onClick={() => fetchMeals(search)}
