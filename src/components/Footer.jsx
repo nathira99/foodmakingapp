@@ -1,3 +1,7 @@
+// import facebookIcon from "../assets/facebook_icon.png";
+// import twitterIcon from "../assets/twitter_icon.png";
+// import discordIcon from "../assets/discord_icon.png";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-100 border-t mt-10">
@@ -33,7 +37,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-blue-500 transition"
           >
-            <img src="../public/facebook_icon.png" alt="" />
+            <img src="facebook_icon.png" alt="" />
           </a>
           <a
             href="https://twitter.com"
@@ -41,7 +45,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-blue-500 transition"
           >
-            <img src="../public/twitter_icon.png" alt="twitter" />
+            <img src="/twitter_icon.png" alt="twitter" />
           </a>
           <a
             href="https://instagram.com"
@@ -49,7 +53,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-pink-500 transition"
           >
-            <img src="../public/discord_icon.png" alt="icon" />
+            <img src="/discord_icon.png" alt="icon" />
           </a></div>
         </div>
 
