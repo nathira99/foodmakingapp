@@ -103,7 +103,7 @@ export default function Home() {
     }
 
     return (
-      <div className="flex justify-center items-center space-x-2 mt-6">
+      <div className="flex justify-center items-center space-x-2 mt-6 flex-wrap">
         <button
           disabled={currentPage === 1}
           onClick={() => onPageChange(1)}
