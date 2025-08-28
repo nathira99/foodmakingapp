@@ -107,7 +107,7 @@ export default function Home() {
         <button
           disabled={currentPage === 1}
           onClick={() => onPageChange(1)}
-          className="px-3 py-1 border rounded disabled:opacity-50"
+          className="px-3 py-1 border rounded disabled:opacity-50 dark:bg-gray-800 dark:text-gray-200 dark:border-gray-600 dark:hover:bg-gray-700"
         >
           First
         </button>
@@ -115,7 +115,7 @@ export default function Home() {
         <button
           disabled={currentPage === 1}
           onClick={() => onPageChange(currentPage - 1)}
-          className="px-3 py-1 border rounded disabled:opacity-50"
+          className="px-3 py-1 border rounded disabled:opacity-50 dark:bg-gray-800 dark:text-gray-200 dark:border-gray-600 dark:hover:bg-gray-700"
         >
           Prev
         </button>
@@ -139,7 +139,7 @@ export default function Home() {
         <button
           disabled={currentPage === totalPages}
           onClick={() => onPageChange(currentPage + 1)}
-          className="px-3 py-1 border rounded disabled:opacity-50"
+          className="px-3 py-1 border rounded disabled:opacity-50  dark:bg-gray-800 dark:text-gray-200 dark:border-gray-600 dark:hover:bg-gray-700"
         >
           Next
         </button>
@@ -147,7 +147,7 @@ export default function Home() {
         <button
           disabled={currentPage === totalPages}
           onClick={() => onPageChange(totalPages)}
-          className="px-3 py-1 border rounded disabled:opacity-50"
+          className="px-3 py-1 border rounded disabled:opacity-50  dark:bg-gray-800 dark:text-gray-200 dark:border-gray-600 dark:hover:bg-gray-700"
         >
           Last
         </button>
